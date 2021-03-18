@@ -15,6 +15,6 @@ else
 	while [ $interval -lt 2 ] ; do
 		echo -e "\a"
 		sleep 1
-		count=$ [count+1]
+		interval=$[interval+1]
 	done
 fi
